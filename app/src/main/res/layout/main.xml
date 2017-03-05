@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></TableLayout>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/bn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One,One"/>
+    <Button
+        android:id="@+id/bn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One,Two"/>
+    <Button
+        android:id="@+id/bn3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="One,Three"/>
+
+
+    <Button
+        android:id="@+id/bn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One,four"/>
+    </TableRow>
+
+    <TableLayout android:id="@+id/TableLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TableLayout>
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/bn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,one"/>
+        <Button android:id="@+id/bn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,two"/>
+        <Button android:id="@+id/bn7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Two,three"/>
+        <Button android:id="@+id/bn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,four"/>
+    </TableRow>
+
+
+    <TableLayout android:id="@+id/TableLayout03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TableLayout>
+
+<TableRow android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button android:id="@+id/bn9"
+        android:text="Three,One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/bn10"
+        android:text="Three,Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/bn11"
+        android:text="Three,Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/bn12"
+        android:text="Three,Four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableRow>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TableLayout>
+<TableRow android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button android:id="@+id/bn13"
+        android:text="four,one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/bn14"
+        android:text="four,two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/bn15"
+        android:text="four,three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/bn16"
+        android:text="four,four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</TableRow>
+
+
+
+</LinearLayout>
