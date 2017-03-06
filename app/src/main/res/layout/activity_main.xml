@@ -8,12 +8,11 @@ android:layout_height="match_parent">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="  Hello World!" />
-<TableLayout
-    android:id="@+id/TableLayout01"
+<LinearLayout
+    android:orientation="horizontal"
     android:layout_height="wrap_content"
-    android:layout_width="match_parent"></TableLayout>
-<TableRow android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_width="match_parent">
+
     <Button
         android:id="@+id/bn1"
         android:layout_width="wrap_content"
@@ -36,13 +35,11 @@ android:layout_height="match_parent">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="One,four"/>
-</TableRow>
 
-<TableLayout android:id="@+id/TableLayout02"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"></TableLayout>
-<TableRow android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button android:id="@+id/bn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,15 +56,12 @@ android:layout_height="match_parent">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Two,four"/>
-</TableRow>
 
 
-<TableLayout android:id="@+id/TableLayout03"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"></TableLayout>
-
-<TableRow android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button android:id="@+id/bn9"
         android:text="Three,One"
         android:layout_width="wrap_content"
@@ -84,31 +78,29 @@ android:layout_height="match_parent">
         android:text="Three,Four"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    </LinearLayout>
 
-</TableRow>
-<TableLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"></TableLayout>
-<TableRow android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-    <Button android:id="@+id/bn13"
-        android:text="four,one"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button android:id="@+id/bn14"
-        android:text="four,two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button android:id="@+id/bn15"
-        android:text="four,three"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button android:id="@+id/bn16"
-        android:text="four,four"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-</TableRow>
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/bn13"
+            android:text="four,one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bn14"
+            android:text="four,two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bn15"
+            android:text="four,three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bn16"
+            android:text="four,four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
+    </LinearLayout>
 
 
 </LinearLayout>
